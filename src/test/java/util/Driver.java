@@ -19,7 +19,7 @@ public class Driver {
 
     public static final String sauceUsername = ConfigReader.readProperty("sauceUser");
     public static final String sauceKey = ConfigReader.readProperty("sauceKey");
-    public static final String URL = "https://"+ConfigReader.readProperty("sauceUser")+":"+ConfigReader.readProperty("sauceKey")+"@ondemand.saucelabs.com:443/wd/hub";
+    public static final String URL = "";
 
     public static void initialize(String browser){
         if (driver != null )
